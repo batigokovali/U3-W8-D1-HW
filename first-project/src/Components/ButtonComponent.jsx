@@ -1,6 +1,6 @@
-const ButtonComponent = () => {
+const ButtonComponent = (props) => {
     return (
-        <button>Click Me!</button>
+        <button>{props.btnLabel}</button>
     )
 }
 
